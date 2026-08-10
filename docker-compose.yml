@@ -1,0 +1,35 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  instance-1:
+    build: .
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      INSTANCE_NAME: instance-1
+    ports:
+      - "9001:8000"
+    depends_on:
+      - redis
+
+  instance-2:
+    build: .
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      INSTANCE_NAME: instance-2
+    ports:
+      - "9002:8000"
+    depends_on:
+      - redis
+
+  instance-3:
+    build: .
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      INSTANCE_NAME: instance-3
+    ports:
+      - "9003:8000"
+    depends_on:
+      - redis
