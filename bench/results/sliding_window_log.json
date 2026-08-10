@@ -1,0 +1,2117 @@
+{
+  "args": {
+    "algorithm": "sliding_window_log",
+    "instances": [
+      "http://localhost:9001",
+      "http://localhost:9002",
+      "http://localhost:9003"
+    ],
+    "rate": 10.0,
+    "duration": 30.0,
+    "limit": 60,
+    "window": 60.0,
+    "out": null
+  },
+  "results": [
+    {
+      "t": 1786400101.7770176,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 37.178500002482906,
+      "status": 200
+    },
+    {
+      "t": 1786400101.8631518,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 14.72279999870807,
+      "status": 200
+    },
+    {
+      "t": 1786400101.9734702,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 13.99939999828348,
+      "status": 200
+    },
+    {
+      "t": 1786400102.1227744,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 52.85860000003595,
+      "status": 200
+    },
+    {
+      "t": 1786400102.2337377,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 53.41190000035567,
+      "status": 200
+    },
+    {
+      "t": 1786400102.3457887,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 54.80900000111433,
+      "status": 200
+    },
+    {
+      "t": 1786400102.4562318,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 55.92199999955483,
+      "status": 200
+    },
+    {
+      "t": 1786400102.5630684,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 52.143499997328036,
+      "status": 200
+    },
+    {
+      "t": 1786400102.6737967,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 52.68239999713842,
+      "status": 200
+    },
+    {
+      "t": 1786400102.7851887,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 53.66219999996247,
+      "status": 200
+    },
+    {
+      "t": 1786400102.8967881,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 54.126900002302136,
+      "status": 200
+    },
+    {
+      "t": 1786400103.007589,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 54.02429999958258,
+      "status": 200
+    },
+    {
+      "t": 1786400103.1199946,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 55.291299999225885,
+      "status": 200
+    },
+    {
+      "t": 1786400103.2312312,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 55.559799999173265,
+      "status": 200
+    },
+    {
+      "t": 1786400103.3409648,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 54.6226000005845,
+      "status": 200
+    },
+    {
+      "t": 1786400103.451944,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 53.795600004377775,
+      "status": 200
+    },
+    {
+      "t": 1786400103.562907,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 52.83249999774853,
+      "status": 200
+    },
+    {
+      "t": 1786400103.6735244,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 52.70659999951022,
+      "status": 200
+    },
+    {
+      "t": 1786400103.7871494,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 55.60749999858672,
+      "status": 200
+    },
+    {
+      "t": 1786400103.898855,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 57.25640000309795,
+      "status": 200
+    },
+    {
+      "t": 1786400104.0096028,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 56.69029999990016,
+      "status": 200
+    },
+    {
+      "t": 1786400104.1228628,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 59.23290000646375,
+      "status": 200
+    },
+    {
+      "t": 1786400104.2308915,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 55.799999994633254,
+      "status": 200
+    },
+    {
+      "t": 1786400104.3421664,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 55.36779999965802,
+      "status": 200
+    },
+    {
+      "t": 1786400104.4516926,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 53.40520000027027,
+      "status": 200
+    },
+    {
+      "t": 1786400104.5636303,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 54.06360000051791,
+      "status": 200
+    },
+    {
+      "t": 1786400104.674531,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 52.8617999952985,
+      "status": 200
+    },
+    {
+      "t": 1786400104.7858377,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 53.186799996183254,
+      "status": 200
+    },
+    {
+      "t": 1786400104.8961174,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 52.97459999565035,
+      "status": 200
+    },
+    {
+      "t": 1786400105.0035062,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 52.64389999501873,
+      "status": 200
+    },
+    {
+      "t": 1786400105.1086388,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 51.31870000332128,
+      "status": 200
+    },
+    {
+      "t": 1786400105.2163224,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 52.36670000158483,
+      "status": 200
+    },
+    {
+      "t": 1786400105.3253126,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 56.86089999653632,
+      "status": 200
+    },
+    {
+      "t": 1786400105.4353433,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 55.37190000177361,
+      "status": 200
+    },
+    {
+      "t": 1786400105.5455544,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 54.003999997803476,
+      "status": 200
+    },
+    {
+      "t": 1786400105.6560884,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 53.723400000308175,
+      "status": 200
+    },
+    {
+      "t": 1786400105.7701535,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 57.504600001266226,
+      "status": 200
+    },
+    {
+      "t": 1786400105.8889563,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 64.98690000444185,
+      "status": 200
+    },
+    {
+      "t": 1786400105.9924605,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 57.39720000565285,
+      "status": 200
+    },
+    {
+      "t": 1786400106.0968244,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 52.8820999970776,
+      "status": 200
+    },
+    {
+      "t": 1786400106.2100205,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 54.6050999982981,
+      "status": 200
+    },
+    {
+      "t": 1786400106.3161075,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 56.43260000215378,
+      "status": 200
+    },
+    {
+      "t": 1786400106.4250731,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 53.856500002439134,
+      "status": 200
+    },
+    {
+      "t": 1786400106.5285566,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 56.24579999857815,
+      "status": 200
+    },
+    {
+      "t": 1786400106.6397302,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 53.13390000083018,
+      "status": 200
+    },
+    {
+      "t": 1786400106.7510185,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 58.33319999510422,
+      "status": 200
+    },
+    {
+      "t": 1786400106.8554833,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 52.184200001647696,
+      "status": 200
+    },
+    {
+      "t": 1786400106.9661446,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 52.18250000325497,
+      "status": 200
+    },
+    {
+      "t": 1786400107.0795586,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 54.53229999693576,
+      "status": 200
+    },
+    {
+      "t": 1786400107.186419,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 55.74670000351034,
+      "status": 200
+    },
+    {
+      "t": 1786400107.288409,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 56.01609999575885,
+      "status": 200
+    },
+    {
+      "t": 1786400107.3897784,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 55.05950000224402,
+      "status": 200
+    },
+    {
+      "t": 1786400107.5011246,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 53.981700002623256,
+      "status": 200
+    },
+    {
+      "t": 1786400107.6039538,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 54.255700000794604,
+      "status": 200
+    },
+    {
+      "t": 1786400107.71,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 53.42789999849629,
+      "status": 200
+    },
+    {
+      "t": 1786400107.81733,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 54.7288000016124,
+      "status": 200
+    },
+    {
+      "t": 1786400107.929898,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 57.88349999784259,
+      "status": 200
+    },
+    {
+      "t": 1786400108.0298936,
+      "url": "http://localhost:9001",
+      "allowed": true,
+      "latency_ms": 56.7421999949147,
+      "status": 200
+    },
+    {
+      "t": 1786400108.142538,
+      "url": "http://localhost:9002",
+      "allowed": true,
+      "latency_ms": 57.645699998829514,
+      "status": 200
+    },
+    {
+      "t": 1786400108.2539856,
+      "url": "http://localhost:9003",
+      "allowed": true,
+      "latency_ms": 57.72739999520127,
+      "status": 200
+    },
+    {
+      "t": 1786400108.3546402,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 52.765299995371606,
+      "status": 200
+    },
+    {
+      "t": 1786400108.4674728,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.444899993541185,
+      "status": 200
+    },
+    {
+      "t": 1786400108.5833936,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 58.63189999945462,
+      "status": 200
+    },
+    {
+      "t": 1786400108.6877174,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 52.14639999758219,
+      "status": 200
+    },
+    {
+      "t": 1786400108.795277,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.98489999445155,
+      "status": 200
+    },
+    {
+      "t": 1786400108.9056356,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.85609999939334,
+      "status": 200
+    },
+    {
+      "t": 1786400109.0126128,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.68910000147298,
+      "status": 200
+    },
+    {
+      "t": 1786400109.1170628,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 58.4281000046758,
+      "status": 200
+    },
+    {
+      "t": 1786400109.226431,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.11870000232011,
+      "status": 200
+    },
+    {
+      "t": 1786400109.3363078,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 52.98410000250442,
+      "status": 200
+    },
+    {
+      "t": 1786400109.4434938,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.36710000119638,
+      "status": 200
+    },
+    {
+      "t": 1786400109.5518575,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.50810000568163,
+      "status": 200
+    },
+    {
+      "t": 1786400109.6525068,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 52.82680000527762,
+      "status": 200
+    },
+    {
+      "t": 1786400109.7601695,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.66180000419263,
+      "status": 200
+    },
+    {
+      "t": 1786400109.8660612,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.134399997768924,
+      "status": 200
+    },
+    {
+      "t": 1786400109.9774754,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.53740000666585,
+      "status": 200
+    },
+    {
+      "t": 1786400110.0926075,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 57.54510000406299,
+      "status": 200
+    },
+    {
+      "t": 1786400110.1999943,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.67119999998249,
+      "status": 200
+    },
+    {
+      "t": 1786400110.301711,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.64950000209501,
+      "status": 200
+    },
+    {
+      "t": 1786400110.4076622,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.38760000106413,
+      "status": 200
+    },
+    {
+      "t": 1786400110.523314,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.49759999848902,
+      "status": 200
+    },
+    {
+      "t": 1786400110.625159,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.69920000177808,
+      "status": 200
+    },
+    {
+      "t": 1786400110.7326021,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.774499996507075,
+      "status": 200
+    },
+    {
+      "t": 1786400110.8486283,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.22149999503745,
+      "status": 200
+    },
+    {
+      "t": 1786400110.9584517,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 52.090299999690615,
+      "status": 200
+    },
+    {
+      "t": 1786400111.070384,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.25499999889871,
+      "status": 200
+    },
+    {
+      "t": 1786400111.1809316,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 52.923099996405654,
+      "status": 200
+    },
+    {
+      "t": 1786400111.297871,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.405099999916274,
+      "status": 200
+    },
+    {
+      "t": 1786400111.4041278,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.90520000219112,
+      "status": 200
+    },
+    {
+      "t": 1786400111.5115287,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.57910000102129,
+      "status": 200
+    },
+    {
+      "t": 1786400111.6193798,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.908199992903974,
+      "status": 200
+    },
+    {
+      "t": 1786400111.7252903,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.83289999776753,
+      "status": 200
+    },
+    {
+      "t": 1786400111.834479,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.82320000010077,
+      "status": 200
+    },
+    {
+      "t": 1786400111.9461975,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.93649999698391,
+      "status": 200
+    },
+    {
+      "t": 1786400112.0528696,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 57.01799999951618,
+      "status": 200
+    },
+    {
+      "t": 1786400112.153823,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.78259999997681,
+      "status": 200
+    },
+    {
+      "t": 1786400112.264972,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 53.07170000014594,
+      "status": 200
+    },
+    {
+      "t": 1786400112.376724,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.96660000405973,
+      "status": 200
+    },
+    {
+      "t": 1786400112.4875293,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 52.89890000130981,
+      "status": 200
+    },
+    {
+      "t": 1786400112.600224,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.133699999714736,
+      "status": 200
+    },
+    {
+      "t": 1786400112.7144384,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 61.00439999863738,
+      "status": 200
+    },
+    {
+      "t": 1786400112.813964,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 58.85819999821251,
+      "status": 200
+    },
+    {
+      "t": 1786400112.9159496,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.21279999811668,
+      "status": 200
+    },
+    {
+      "t": 1786400113.0297003,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.27610000374261,
+      "status": 200
+    },
+    {
+      "t": 1786400113.1289926,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.62740000075428,
+      "status": 200
+    },
+    {
+      "t": 1786400113.235924,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.1567999975523,
+      "status": 200
+    },
+    {
+      "t": 1786400113.336427,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.94210000324529,
+      "status": 200
+    },
+    {
+      "t": 1786400113.4436088,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.70590000227094,
+      "status": 200
+    },
+    {
+      "t": 1786400113.5534682,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 58.78569999913452,
+      "status": 200
+    },
+    {
+      "t": 1786400113.653718,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.80180000065593,
+      "status": 200
+    },
+    {
+      "t": 1786400113.76311,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.49479999858886,
+      "status": 200
+    },
+    {
+      "t": 1786400113.8706653,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.21220000466565,
+      "status": 200
+    },
+    {
+      "t": 1786400113.9774039,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.660400000808295,
+      "status": 200
+    },
+    {
+      "t": 1786400114.0835304,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.51330000121379,
+      "status": 200
+    },
+    {
+      "t": 1786400114.1993642,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.23470000096131,
+      "status": 200
+    },
+    {
+      "t": 1786400114.3071165,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.60899999929825,
+      "status": 200
+    },
+    {
+      "t": 1786400114.4025638,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 51.84690000169212,
+      "status": 200
+    },
+    {
+      "t": 1786400114.5182116,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.75549999775831,
+      "status": 200
+    },
+    {
+      "t": 1786400114.625382,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 51.6940000015893,
+      "status": 200
+    },
+    {
+      "t": 1786400114.7422485,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.86490000173217,
+      "status": 200
+    },
+    {
+      "t": 1786400114.850095,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 58.77640000107931,
+      "status": 200
+    },
+    {
+      "t": 1786400114.9472978,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.38499999966007,
+      "status": 200
+    },
+    {
+      "t": 1786400115.0567615,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.377599993837066,
+      "status": 200
+    },
+    {
+      "t": 1786400115.1676304,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.86030000267783,
+      "status": 200
+    },
+    {
+      "t": 1786400115.2747025,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.58970000129193,
+      "status": 200
+    },
+    {
+      "t": 1786400115.3723102,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 52.54459999559913,
+      "status": 200
+    },
+    {
+      "t": 1786400115.4915507,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.55020000267541,
+      "status": 200
+    },
+    {
+      "t": 1786400115.5976903,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 52.813400005106814,
+      "status": 200
+    },
+    {
+      "t": 1786400115.7098014,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.78799999784678,
+      "status": 200
+    },
+    {
+      "t": 1786400115.8232622,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 57.417800002440345,
+      "status": 200
+    },
+    {
+      "t": 1786400115.92857,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.76920000364771,
+      "status": 200
+    },
+    {
+      "t": 1786400116.0355928,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.87710000004154,
+      "status": 200
+    },
+    {
+      "t": 1786400116.1435194,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.04240000300342,
+      "status": 200
+    },
+    {
+      "t": 1786400116.2482738,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.836999999475665,
+      "status": 200
+    },
+    {
+      "t": 1786400116.3638005,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.84370000340277,
+      "status": 200
+    },
+    {
+      "t": 1786400116.4751284,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.468800000904594,
+      "status": 200
+    },
+    {
+      "t": 1786400116.5814428,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.33949999860488,
+      "status": 200
+    },
+    {
+      "t": 1786400116.6845355,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.9953999943682,
+      "status": 200
+    },
+    {
+      "t": 1786400116.7943826,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 53.408500003570225,
+      "status": 200
+    },
+    {
+      "t": 1786400116.8960526,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.99089999991702,
+      "status": 200
+    },
+    {
+      "t": 1786400117.0145578,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.46359999809647,
+      "status": 200
+    },
+    {
+      "t": 1786400117.1280684,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.43889999878593,
+      "status": 200
+    },
+    {
+      "t": 1786400117.2403774,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.300899999565445,
+      "status": 200
+    },
+    {
+      "t": 1786400117.3438635,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.478899994748645,
+      "status": 200
+    },
+    {
+      "t": 1786400117.4429283,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 53.38909999409225,
+      "status": 200
+    },
+    {
+      "t": 1786400117.5540442,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 52.90399999648798,
+      "status": 200
+    },
+    {
+      "t": 1786400117.6672032,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.95080000400776,
+      "status": 200
+    },
+    {
+      "t": 1786400117.7762897,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 53.72580000403104,
+      "status": 200
+    },
+    {
+      "t": 1786400117.8782582,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.41129999962868,
+      "status": 200
+    },
+    {
+      "t": 1786400117.9897282,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.93550000007963,
+      "status": 200
+    },
+    {
+      "t": 1786400118.104955,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 58.73109999811277,
+      "status": 200
+    },
+    {
+      "t": 1786400118.208025,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.96959999477258,
+      "status": 200
+    },
+    {
+      "t": 1786400118.3101382,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.524499999999534,
+      "status": 200
+    },
+    {
+      "t": 1786400118.4121585,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.32229999901028,
+      "status": 200
+    },
+    {
+      "t": 1786400118.5236526,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.286899998260196,
+      "status": 200
+    },
+    {
+      "t": 1786400118.6304219,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.59030000586063,
+      "status": 200
+    },
+    {
+      "t": 1786400118.7333248,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 53.19260000396753,
+      "status": 200
+    },
+    {
+      "t": 1786400118.84958,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.189799997606315,
+      "status": 200
+    },
+    {
+      "t": 1786400118.9664333,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 58.68850000115344,
+      "status": 200
+    },
+    {
+      "t": 1786400119.0664306,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 53.355999996711034,
+      "status": 200
+    },
+    {
+      "t": 1786400119.1717038,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 52.11240000062389,
+      "status": 200
+    },
+    {
+      "t": 1786400119.2849834,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.78490000375314,
+      "status": 200
+    },
+    {
+      "t": 1786400119.385906,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.87050000031013,
+      "status": 200
+    },
+    {
+      "t": 1786400119.4859502,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.94589999580057,
+      "status": 200
+    },
+    {
+      "t": 1786400119.593818,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.54859999776818,
+      "status": 200
+    },
+    {
+      "t": 1786400119.7058873,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 53.93570000160253,
+      "status": 200
+    },
+    {
+      "t": 1786400119.80973,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.45899999944959,
+      "status": 200
+    },
+    {
+      "t": 1786400119.9170303,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.884400004695635,
+      "status": 200
+    },
+    {
+      "t": 1786400120.0173764,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.95779999910155,
+      "status": 200
+    },
+    {
+      "t": 1786400120.1324518,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.8514999973122,
+      "status": 200
+    },
+    {
+      "t": 1786400120.2391973,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.88519999542041,
+      "status": 200
+    },
+    {
+      "t": 1786400120.3454466,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.05410000134725,
+      "status": 200
+    },
+    {
+      "t": 1786400120.4445398,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.00119999446906,
+      "status": 200
+    },
+    {
+      "t": 1786400120.5603328,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.06270000518998,
+      "status": 200
+    },
+    {
+      "t": 1786400120.6712952,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 57.166799997503404,
+      "status": 200
+    },
+    {
+      "t": 1786400120.7782068,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.011000000173226,
+      "status": 200
+    },
+    {
+      "t": 1786400120.8915958,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 52.67779999849154,
+      "status": 200
+    },
+    {
+      "t": 1786400120.9959314,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.019399999058805,
+      "status": 200
+    },
+    {
+      "t": 1786400121.0969982,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.07130000094185,
+      "status": 200
+    },
+    {
+      "t": 1786400121.206574,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 51.55219999869587,
+      "status": 200
+    },
+    {
+      "t": 1786400121.318741,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.613799999060575,
+      "status": 200
+    },
+    {
+      "t": 1786400121.430291,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.04440000024624,
+      "status": 200
+    },
+    {
+      "t": 1786400121.5402899,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.93869999918388,
+      "status": 200
+    },
+    {
+      "t": 1786400121.6473653,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 51.53640000207815,
+      "status": 200
+    },
+    {
+      "t": 1786400121.7493074,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 51.809699994919356,
+      "status": 200
+    },
+    {
+      "t": 1786400121.8526428,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 52.50450000312412,
+      "status": 200
+    },
+    {
+      "t": 1786400121.9543302,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 52.80839999613818,
+      "status": 200
+    },
+    {
+      "t": 1786400122.0616212,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.110200006107334,
+      "status": 200
+    },
+    {
+      "t": 1786400122.1635644,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.21280000155093,
+      "status": 200
+    },
+    {
+      "t": 1786400122.278958,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.36730000312673,
+      "status": 200
+    },
+    {
+      "t": 1786400122.3863826,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.01279999589315,
+      "status": 200
+    },
+    {
+      "t": 1786400122.4881241,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 52.37150000175461,
+      "status": 200
+    },
+    {
+      "t": 1786400122.5944211,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 53.76199999591336,
+      "status": 200
+    },
+    {
+      "t": 1786400122.7115536,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.394699997326825,
+      "status": 200
+    },
+    {
+      "t": 1786400122.8187053,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.834599996567704,
+      "status": 200
+    },
+    {
+      "t": 1786400122.9190035,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.69219999940833,
+      "status": 200
+    },
+    {
+      "t": 1786400123.0215569,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.29490000481019,
+      "status": 200
+    },
+    {
+      "t": 1786400123.1292078,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.25819999841042,
+      "status": 200
+    },
+    {
+      "t": 1786400123.2349477,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.785100001026876,
+      "status": 200
+    },
+    {
+      "t": 1786400123.3375833,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.01300000125775,
+      "status": 200
+    },
+    {
+      "t": 1786400123.438554,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 52.43589999736287,
+      "status": 200
+    },
+    {
+      "t": 1786400123.5417798,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.40589999873191,
+      "status": 200
+    },
+    {
+      "t": 1786400123.658696,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 61.35119999817107,
+      "status": 200
+    },
+    {
+      "t": 1786400123.7582326,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.27190000389237,
+      "status": 200
+    },
+    {
+      "t": 1786400123.8700044,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.13350000203354,
+      "status": 200
+    },
+    {
+      "t": 1786400123.9762077,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.07159999979194,
+      "status": 200
+    },
+    {
+      "t": 1786400124.0835013,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.75619999540504,
+      "status": 200
+    },
+    {
+      "t": 1786400124.199758,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.27030000282684,
+      "status": 200
+    },
+    {
+      "t": 1786400124.3083618,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.153100001916755,
+      "status": 200
+    },
+    {
+      "t": 1786400124.4178615,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.374500000150874,
+      "status": 200
+    },
+    {
+      "t": 1786400124.5231714,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 52.80710000079125,
+      "status": 200
+    },
+    {
+      "t": 1786400124.638724,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 52.40770000091288,
+      "status": 200
+    },
+    {
+      "t": 1786400124.741662,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.42800000309944,
+      "status": 200
+    },
+    {
+      "t": 1786400124.848601,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.22159999620635,
+      "status": 200
+    },
+    {
+      "t": 1786400124.9560757,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.91140000615269,
+      "status": 200
+    },
+    {
+      "t": 1786400125.0600812,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 58.030000000144355,
+      "status": 200
+    },
+    {
+      "t": 1786400125.1733139,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 57.096099997579586,
+      "status": 200
+    },
+    {
+      "t": 1786400125.2755568,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 57.562800000596326,
+      "status": 200
+    },
+    {
+      "t": 1786400125.3763268,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.413800000271294,
+      "status": 200
+    },
+    {
+      "t": 1786400125.478808,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.717399998684414,
+      "status": 200
+    },
+    {
+      "t": 1786400125.5828094,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.48530000325991,
+      "status": 200
+    },
+    {
+      "t": 1786400125.687888,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.031200004625134,
+      "status": 200
+    },
+    {
+      "t": 1786400125.804119,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.10589999560034,
+      "status": 200
+    },
+    {
+      "t": 1786400125.9076638,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.82729999878211,
+      "status": 200
+    },
+    {
+      "t": 1786400126.0144198,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.64130000129808,
+      "status": 200
+    },
+    {
+      "t": 1786400126.1176114,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 51.95329999696696,
+      "status": 200
+    },
+    {
+      "t": 1786400126.2299428,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.993899997498374,
+      "status": 200
+    },
+    {
+      "t": 1786400126.3367343,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.09810000169091,
+      "status": 200
+    },
+    {
+      "t": 1786400126.4427783,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.3479999944102,
+      "status": 200
+    },
+    {
+      "t": 1786400126.5589743,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.918599998927675,
+      "status": 200
+    },
+    {
+      "t": 1786400126.6662974,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.97069999930682,
+      "status": 200
+    },
+    {
+      "t": 1786400126.7684295,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.96320000040578,
+      "status": 200
+    },
+    {
+      "t": 1786400126.8711667,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.36679999588523,
+      "status": 200
+    },
+    {
+      "t": 1786400126.9781535,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.54270000377437,
+      "status": 200
+    },
+    {
+      "t": 1786400127.0844345,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.16619999980321,
+      "status": 200
+    },
+    {
+      "t": 1786400127.197143,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.853900001442526,
+      "status": 200
+    },
+    {
+      "t": 1786400127.3004284,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.3207999978913,
+      "status": 200
+    },
+    {
+      "t": 1786400127.4029431,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.892499996640254,
+      "status": 200
+    },
+    {
+      "t": 1786400127.5106597,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.49650000082329,
+      "status": 200
+    },
+    {
+      "t": 1786400127.6192608,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.718899999395944,
+      "status": 200
+    },
+    {
+      "t": 1786400127.722699,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 51.6457999983686,
+      "status": 200
+    },
+    {
+      "t": 1786400127.8268218,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.97379999724217,
+      "status": 200
+    },
+    {
+      "t": 1786400127.9368918,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.61170000146376,
+      "status": 200
+    },
+    {
+      "t": 1786400128.0390105,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.852799996500835,
+      "status": 200
+    },
+    {
+      "t": 1786400128.1406014,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 52.332200000819284,
+      "status": 200
+    },
+    {
+      "t": 1786400128.2592342,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 58.0822000047192,
+      "status": 200
+    },
+    {
+      "t": 1786400128.3557656,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.112899997562636,
+      "status": 200
+    },
+    {
+      "t": 1786400128.460355,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 52.63809999451041,
+      "status": 200
+    },
+    {
+      "t": 1786400128.5715756,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 51.4818000010564,
+      "status": 200
+    },
+    {
+      "t": 1786400128.6827087,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 53.94069999601925,
+      "status": 200
+    },
+    {
+      "t": 1786400128.7955587,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 57.57319999975152,
+      "status": 200
+    },
+    {
+      "t": 1786400128.8968458,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.23549999593524,
+      "status": 200
+    },
+    {
+      "t": 1786400129.005885,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.28100000083214,
+      "status": 200
+    },
+    {
+      "t": 1786400129.1098585,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.462800002715085,
+      "status": 200
+    },
+    {
+      "t": 1786400129.2161577,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.678800006513484,
+      "status": 200
+    },
+    {
+      "t": 1786400129.326496,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 51.1631999979727,
+      "status": 200
+    },
+    {
+      "t": 1786400129.4293227,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 52.884099997754674,
+      "status": 200
+    },
+    {
+      "t": 1786400129.541195,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.301399996096734,
+      "status": 200
+    },
+    {
+      "t": 1786400129.6455364,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 58.55200000223704,
+      "status": 200
+    },
+    {
+      "t": 1786400129.7406785,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.03680000361055,
+      "status": 200
+    },
+    {
+      "t": 1786400129.8564434,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.46189999929629,
+      "status": 200
+    },
+    {
+      "t": 1786400129.9731357,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 68.31899999815505,
+      "status": 200
+    },
+    {
+      "t": 1786400130.0659122,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 52.75580000306945,
+      "status": 200
+    },
+    {
+      "t": 1786400130.1725934,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 55.692599999019876,
+      "status": 200
+    },
+    {
+      "t": 1786400130.2872982,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.44770000030985,
+      "status": 200
+    },
+    {
+      "t": 1786400130.3945599,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.331900002784096,
+      "status": 200
+    },
+    {
+      "t": 1786400130.498327,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.647600001771934,
+      "status": 200
+    },
+    {
+      "t": 1786400130.6119268,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 52.842600001895335,
+      "status": 200
+    },
+    {
+      "t": 1786400130.7216527,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.711699998530094,
+      "status": 200
+    },
+    {
+      "t": 1786400130.8312132,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.04920000041602,
+      "status": 200
+    },
+    {
+      "t": 1786400130.9383583,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 57.88870000105817,
+      "status": 200
+    },
+    {
+      "t": 1786400131.0434651,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 56.9543999954476,
+      "status": 200
+    },
+    {
+      "t": 1786400131.1551857,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.708699994080234,
+      "status": 200
+    },
+    {
+      "t": 1786400131.2604904,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 55.76819999987492,
+      "status": 200
+    },
+    {
+      "t": 1786400131.3626955,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.03459999454208,
+      "status": 200
+    },
+    {
+      "t": 1786400131.4662266,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 56.84150000161026,
+      "status": 200
+    },
+    {
+      "t": 1786400131.5670054,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.43350000132341,
+      "status": 200
+    },
+    {
+      "t": 1786400131.6741822,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.62049999914598,
+      "status": 200
+    },
+    {
+      "t": 1786400131.7856898,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.778900000907015,
+      "status": 200
+    },
+    {
+      "t": 1786400131.8934438,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.427899995062035,
+      "status": 200
+    },
+    {
+      "t": 1786400131.999438,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.9650000029942,
+      "status": 200
+    },
+    {
+      "t": 1786400132.1051402,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 51.78439999872353,
+      "status": 200
+    },
+    {
+      "t": 1786400132.211012,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 50.67530000087572,
+      "status": 200
+    },
+    {
+      "t": 1786400132.3181825,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.84949999663513,
+      "status": 200
+    },
+    {
+      "t": 1786400132.4291546,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.84260000230279,
+      "status": 200
+    },
+    {
+      "t": 1786400132.5307655,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 52.79820000578184,
+      "status": 200
+    },
+    {
+      "t": 1786400132.6429477,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.60350000410108,
+      "status": 200
+    },
+    {
+      "t": 1786400132.7536566,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 53.068199995323084,
+      "status": 200
+    },
+    {
+      "t": 1786400132.8668811,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.03189999924507,
+      "status": 200
+    },
+    {
+      "t": 1786400132.9718344,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.17749999812804,
+      "status": 200
+    },
+    {
+      "t": 1786400133.0755289,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.865099999005906,
+      "status": 200
+    },
+    {
+      "t": 1786400133.1861494,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 56.77629999991041,
+      "status": 200
+    },
+    {
+      "t": 1786400133.2936976,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 53.45159999706084,
+      "status": 200
+    },
+    {
+      "t": 1786400133.3950362,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.32670000300277,
+      "status": 200
+    },
+    {
+      "t": 1786400133.496773,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 54.74089999916032,
+      "status": 200
+    },
+    {
+      "t": 1786400133.602148,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 54.60300000413554,
+      "status": 200
+    },
+    {
+      "t": 1786400133.7073376,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 54.018400005588774,
+      "status": 200
+    },
+    {
+      "t": 1786400133.8161223,
+      "url": "http://localhost:9001",
+      "allowed": false,
+      "latency_ms": 51.87350000051083,
+      "status": 200
+    },
+    {
+      "t": 1786400133.9244874,
+      "url": "http://localhost:9002",
+      "allowed": false,
+      "latency_ms": 55.02590000105556,
+      "status": 200
+    },
+    {
+      "t": 1786400134.0300624,
+      "url": "http://localhost:9003",
+      "allowed": false,
+      "latency_ms": 57.50080000143498,
+      "status": 200
+    }
+  ]
+}
