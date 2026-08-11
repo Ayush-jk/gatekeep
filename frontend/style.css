@@ -65,6 +65,7 @@ label {
 select,
 input[type="number"] {
     width: 100%;
+    min-width: 140px;
     padding: 8px 10px;
     border: 1px solid var(--line);
     border-radius: 7px;
