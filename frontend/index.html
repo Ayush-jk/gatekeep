@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatekeep</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <h1>Gatekeep</h1>
+        <p class="subtitle">Distributed rate limiter — pick an algorithm, simulate load, watch it hold or break.</p>
+
+        <div class="card">
+            <div class="controls">
+                <div>
+                    <label>Algorithm</label>
+                    <select id="algorithm">
+                        <option value="naive">Naive (in-memory)</option>
+                        <option value="token_bucket">Token Bucket</option>
+                        <option value="sliding_window_log">Sliding Window Log</option>
+                        <option value="sliding_window_counter">Sliding Window Counter</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Rate (req/s)</label>
+                    <input type="number" id="rate" value="10" min="1">
+                </div>
+                <div>
+                    <label>Duration (s)</label>
+                    <input type="number" id="duration" value="25" min="1">
+                </div>
+                <div>
+                    <label>Limit</label>
+                    <input type="number" id="limit" value="60" min="1">
+                </div>
+                <div>
+                    <label>Window (s)</label>
+                    <input type="number" id="window" value="60" min="1">
+                </div>
+            </div>
+            <button id="simulate-btn">Simulate Load</button>
+        </div>
+
+        <div class="card">
+            <canvas id="live-chart" height="90"></canvas>
+        </div>
+
+        <div class="card">
+            <div class="stats">
+                <div class="stat"><div class="num" id="stat-sent">0</div><div class="lbl">Sent</div></div>
+                <div class="stat"><div class="num" id="stat-allowed">0</div><div class="lbl">Allowed</div></div>
+                <div class="stat"><div class="num" id="stat-permit">-</div><div class="lbl">Over-permit</div></div>
+            </div>
+            <div id="instance-breakdown" class="breakdown"></div>
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
